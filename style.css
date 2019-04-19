@@ -64,3 +64,61 @@ color: #f1f1f1;
    background-color: #A4A4A4;
    transition: .5s;
  }
+
+ /* HEADER */
+
+header{
+  background-image: url('img/fundo.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #f1f1f1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+header p{
+  margin-bottom: 2em;
+}
+
+/* ABOUT */
+
+#sobre{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px 20px;
+  background-color: #045fb4;
+  color: #f1f1f1;
+}
+
+#sobre #botao{
+  background-color: #f1f1f1;
+  color: #4d4d4d;
+}
+
+#sobre p{
+  margin-bottom: 2.5em;
+  max-width: 1000px;
+}
+
+/* SERVICES */
+#servicos{
+padding: 20px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+#servicos div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 30px;
+}
