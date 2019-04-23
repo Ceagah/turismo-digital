@@ -122,3 +122,98 @@ align-items: center;
   text-align: center;
   margin-top: 30px;
 }
+
+#port {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+
+#port h2 {
+  margin-bottom: 20px;
+}
+
+#port img{
+  width: 100%;
+}
+
+#contato {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 20px;
+}
+
+footer{
+text-align: center;
+padding: 10px;
+background-color: #4d4d4d;
+color: #f1f1f1;
+}
+
+@media screen and (min-width: 768px) {
+  /* Nav */
+  nav{
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  nav ul{
+    flex-direction: row;
+    width: 70%;
+  }
+  /* Header */
+  header {
+    height: 60vh; /*60 % do espaço atual*/
+    justify-content: space-around;
+  }
+  /* Sobre */
+  #sobre{
+    height: 250px;
+    height: 30vh;
+    justify-content: space-around;
+    min-height: 250px;
+  }
+  /*  Serviços */
+  #servicos {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  #servicos h2 {
+    text-align: center;
+    width: 100%;
+  }
+  #servicos div{
+    flex-grow: 1; /* Os itens irão aumentar de forma proporcional */
+    flex-basis: 150px;
+    padding: 0 10px;
+  }
+  /* PORTIFOLIO */
+  #port{
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  #port h2 {
+    width:100%;
+    text-align: center;
+  }
+  #port img{
+    width: 33%;
+  }
+  /* Contato */
+  #contato {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  #contato h2 , p {
+    width: 100%;
+  }
+  
+}
